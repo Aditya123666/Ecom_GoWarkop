@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TambahMenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/tambah_menu"
+            android:textSize="25sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_nama_menu_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Menu"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_harga_menu_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harga ex: 10000"
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_kategori_menu_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kategori"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_deskripsi_menu_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deskripsi Menu"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_link_menu_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Link Gambar"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_submit_tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText"
+            android:background="@drawable/button_login"
+            android:text="submit"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

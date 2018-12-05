@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop_login_frame">80dp</dimen>
+    <dimen name="marginLeft_login_frame">30dp</dimen>
+    <dimen name="width_login_frame">100dp</dimen>
+    <dimen name="height_login_frame">100dp</dimen>
+    <dimen name="padding_login_frame">8dp</dimen>
+    <dimen name="marginLeft_login">30dp</dimen>
+    <dimen name="marginTop_lofin_tvWelcone">20dp</dimen>
+    <dimen name="textSize_login_tvWelcome">32sp</dimen>
+    <dimen name="marginTop_login_tv">10dp</dimen>
+    <dimen name="textSize_login_tv">16sp</dimen>
+    <dimen name="marginTop_editText">16dp</dimen>
+    <dimen name="marginTop_login_buttonLogin">40dp</dimen>
+    <dimen name="height_menu_main">0dp</dimen>
+    <dimen name="margin_menu_main">4dp</dimen>
+    <dimen name="height_menu_subMain">0dp</dimen>
+    <dimen name="height_menu_image">0dp</dimen>
+    <dimen name="menu_image_padding">20dp</dimen>
+    <dimen name="height_menu_textMenu">0dp</dimen>
+    <dimen name="textSize_menu_main">14sp</dimen>
+    <dimen name="width_menu_card">0dp</dimen>
+    <dimen name="margin_menu_card">2dp</dimen>
+    <dimen name="height_menu_imageSlider">300dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="marginLeft_item_cv">8dp</dimen>
+    <dimen name="marginTop_item_cv">4dp</dimen>
+    <dimen name="paddingSide_listItemPresensi_cv">16dp</dimen>
+    <dimen name="avaList">60dp</dimen>
+    <dimen name="marginAvaList">2dp</dimen>
+    <dimen name="paddingList">2dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="@dimen/width_login_frame"
+            android:layout_height="@dimen/height_login_frame"
+            android:layout_marginLeft="@dimen/marginLeft_login_frame"
+            android:layout_marginTop="@dimen/marginTop_login_frame">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding_login_frame"
+                android:src="@drawable/ic_spaguetti" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_lofin_tvWelcone"
+            android:text="Welcome Back,"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/textSize_login_tvWelcome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_login_tv"
+            android:text="Are You Hungry? Login First"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/textSize_login_tv" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_editText">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="@dimen/padding_login_frame"
+                android:hint="email"
+                android:inputType="textEmailAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="@dimen/padding_login_frame"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_login"
+            android:layout_marginRight="@dimen/marginLeft_login"
+            android:layout_marginTop="@dimen/marginTop_login_buttonLogin"
+            android:background="@drawable/button_login"
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_have_an_account"/>
+
+        <TextView
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_here"/>
+    </LinearLayout>
+
+</ScrollView>
